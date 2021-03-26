@@ -1,0 +1,27 @@
+@media screen and (min-width: 991px) {
+  .HamburgerWrapper {
+    display: none;
+  }
+}
+
+.HamburgerWrapper {
+  z-index: 22;
+}
+
+.DropDown_btn {
+  cursor: pointer;
+}
+.DropDown_btn:hover .DropDown_content {
+  display: block;
+}
+.DropDown_content {
+  display: none;
+}
+.SliderWrapper {
+  height: 200px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
